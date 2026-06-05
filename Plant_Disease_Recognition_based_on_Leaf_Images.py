@@ -14,7 +14,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 plt.close('all')
 
-path = "C:/Users/rdoro/Desktop/Anul_IV/NNGA_Pr/project/theSmallDataset"
+path = "C:/Users/Desktop/project/theSmallDataset"
 
 def loadingData(DSpath, imagesize =(224, 224)):
     imgs, lbls = [], []
