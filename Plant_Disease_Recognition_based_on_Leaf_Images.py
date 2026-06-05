@@ -29,9 +29,9 @@ def loadingData(DSpath, imagesize =(224, 224)):
                 lbls.append(cls)
     return np.array(imgs), np.array(lbls)
 
-train_path = "C:/Users/rdoro/Desktop/Anul_IV/NNGA_Pr/project/theSmallDataset/train"
-valid_path = "C:/Users/rdoro/Desktop/Anul_IV/NNGA_Pr/project/theSmallDataset/valid"
-test_path = "C:/Users/rdoro/Desktop/Anul_IV/NNGA_Pr/project/theSmallDataset/test"
+train_path = "C:/Users/Desktop/project/theSmallDataset/train"
+valid_path = "C:/Users/Desktop/project/theSmallDataset/valid"
+test_path = "C:/Users/Desktop/project/theSmallDataset/test"
 
 def count_images_in_folder(folder_path):
     total = 0
